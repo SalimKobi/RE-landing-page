@@ -49,16 +49,18 @@ const RealEstate = () => {
         <div className="container mx-auto px-3 lg:flex justify-between items-center lg:h-screen">
           <div className="lg:w-2/5">
             <p className="text-[#0c4f37] md:text-xl text-lg font-medium">
-              REAL ESTATE
+              Welcome to Tantolu Real Estate
             </p>
-            <h1 className="lg:text-6xl text-3xl font-medium pt-3 pb-12">
-              Find a perfect home you love!
+            <h1 className="lg:text-3xl text-3xl font-medium pt-3 pb-8">
+              Your Trusted Partner in Property Development, Sales, and
+              Management
             </h1>
             <p className="text-[#808080] lg:text-base text-sm pb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              vitae voluptate recusandae unde? Aliquam deleniti natus quod
-              voluptatibus? Deleniti omnis esse eaque, repellendus cupiditate
-              libero atque inventore pariatur in totam.
+              At Tantolu Real Estate, we don’t just develop properties—we manage
+              them with care and connect people to their perfect homes. Whether
+              you’re looking to buy, sell, or manage your property, our expert
+              team is here to provide personalized, comprehensive solutions
+              tailored to your needs.
             </p>
 
             <Carousel

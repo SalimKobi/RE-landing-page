@@ -21,7 +21,7 @@ function App() {
         <NeighborhoodProperty />
         <Team />
         <Testimonial />
-        <JoinUs />
+        {/* <JoinUs /> */}
       </main>
       <Footer />
     </>

@@ -37,9 +37,6 @@ const LatestPackage = () => {
           <h1 className="lg:text-4xl text-2xl font-medium capitaliz py-3e">
             Latest Listed Properties
           </h1>
-          <p className="text-[#808080] lg:text-base text-sm lg:w-3/5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
         </div>
         <div className="flex gap-x-4 lg:w-2/5 lg:pt-0 pt-6">
           <button className="text-[#0ca39a] rounded-full border border-[#0ca39a] hover:text-white focus:bg-[0ca39a] focus:text-white px-2">
@@ -74,7 +71,7 @@ const LatestPackage = () => {
                 className="rounded-3xl h-full w-full object-cover"
               />
               <button className="px-6 flex py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
-                <FaFire/>
+                <FaFire />
                 Popular
               </button>
             </div>
@@ -100,7 +97,7 @@ const LatestPackage = () => {
                 className="rounded-3xl h-full w-full object-cover"
               />
               <button className="px-6 flex py-2 gap-x-2 items-center text-[#119bff] bg-[#d7eeff] rounded-full absolute bottom-10 left-4">
-                <FaHouseUser/>
+                <FaHouseUser />
                 New Listing
               </button>
             </div>
@@ -126,7 +123,7 @@ const LatestPackage = () => {
                 className="rounded-3xl h-full w-full object-cover"
               />
               <button className="px-6 flex py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
-                <FaDollarSign/>
+                <FaDollarSign />
                 Discounted Price
               </button>
             </div>
@@ -233,7 +230,7 @@ const LatestPackage = () => {
                 className="rounded-3xl h-full w-full object-cover"
               />
               <button className="px-6 flex py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
-                <FaDollarSign/>
+                <FaDollarSign />
                 Discounted Price
               </button>
             </div>
