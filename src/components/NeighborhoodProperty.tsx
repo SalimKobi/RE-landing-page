@@ -58,17 +58,15 @@ const NeighborhoodProperty = () => {
         </div>
         <div className="relative md:col-span-3">
           <img
-            src="/assets/img-blank.PNG"
+            src="/assets/neighborhood/kubwa.jpg"
             alt=""
             className="rounded-3xl object-cover md:h-80 h-40 w-full"
           />
           <span className="absolute md:bottom-8 bottom-4 md:left-8 left-4">
             <p className="text-white md:text-5xl text-2xl font-semibold md:pb-3">
-              451
+              Kubwa
             </p>
-            <p className="text-white lg:text-xl md:text-base text-sm">
-              Bengkulu
-            </p>
+            {/* <p className="text-white lg:text-xl md:text-base text-sm">Kubwa</p> */}
           </span>
         </div>
         <div className="relative md:col-span-4">
