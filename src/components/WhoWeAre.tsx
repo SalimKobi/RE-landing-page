@@ -48,18 +48,18 @@ const WhoWeAre = () => {
       </div>
       <div className="lg:w-3/5 flex items-end gap-4 lg:mt-0 mt-12 lg:h-auto h-[30rem]">
         <img
-          src="/assets/img-blank.PNG"
+          src="/assets/why/manager.jpg"
           alt=""
           className="rounded-3xl w-1/2 h-4/5 shadow-md object-cover"
         />
         <div className="w-1/2 h-4/5 flex flex-col gap-4 relative -top-20">
           <img
-            src="/assets/img-blank.PNG"
+            src="/assets/why/table.jpg"
             alt=""
             className="w-full h-3/5 rounded-3xl shadow-md object-cover"
           />
           <img
-            src="/assets/img-blank.PNG"
+            src="/assets/why/shake.jpg"
             alt=""
             className="w-full h-2/5 rounded-3xl shadow-md object-cover"
           />
