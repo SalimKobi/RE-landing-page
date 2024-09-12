@@ -1,9 +1,6 @@
 const Team = () => {
   return (
     <main className="container max-xl: px-3">
-      <p className="text-[#0c4f37] uppercase md:text-xl text-lg text-center">
-        Introduce Yourself To
-      </p>
       <h1 className="lg:text-4xl text-3xl font-medium capitalize pt-3 pb-12 text-center">
         Our Team of Experts
       </h1>
