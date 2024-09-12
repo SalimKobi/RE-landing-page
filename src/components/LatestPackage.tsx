@@ -65,7 +65,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-2xl font-medium">₦ 5.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -91,7 +91,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 1.99</p>
+              <p className="text-2xl font-medium">₦ 1.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -117,7 +117,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 0.99</p>
+              <p className="text-2xl font-medium">₦ 0.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -143,7 +143,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 3.99</p>
+              <p className="text-2xl font-medium">₦ 3.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -172,7 +172,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-2xl font-medium">₦ 5.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -198,7 +198,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-2xl font-medium">₦ 5.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -224,7 +224,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-2xl font-medium">₦ 5.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
@@ -250,7 +250,7 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-2xl font-medium">₦ 5.99</p>
               <p className="text-lg font-medium">Lorem ipsum dolor</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">

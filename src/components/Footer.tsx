@@ -82,21 +82,9 @@ const Footer = () => {
 
             <div className="lg:w-1/3">
               <p className="font-semibold lg:mb-4 lg:mt-0 mt-6 uppercase lg:text-left text-center lg:pb-0 pb-2">
-                Subscribe to our Newsletter!
-              </p>
-              <div className="relative h-14 justify-center items-center">
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="h-full w-full rounded-full px-3"
-                />
-                <button className="bg-[#0ca39a] mt-4 text-white rounded-full w-12 h-12 flex justify-center items-center text-xl absolute -top-3 right-1">
-                  <IoArrowForward />
-                </button>
-              </div>
-              <p className="font-semibold py-6 text-lg lg:text-left text-center">
                 Follow us on
               </p>
+
               <span className="text-[#0ca49a] flex items-center gap-4 text-2xl lg:justify-normal">
                 <FaLinkedin className="cursor-pointer" />
                 <FaFacebookF className="cursor-pointer" />
@@ -106,16 +94,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="bg-black text-[#7b7a7a] xl:text-base text-sm">
-        <div className="container mxauto px-3 lg:flex justify-between items-center lg:h-14 lg:text-left text-center">
-          <p>AnjasFedo</p>
-          <ul className="flex lg:flex-row flex-wrap lg:justify-normal justify-center items-center gap-x-4">
-            <li className="cursor-pointer">Term and Conditions</li>
-            <li className="cursor-pointer">Privacy Policy</li>
-            <li className="cursor-pointer">Disclaimer</li>
-          </ul>
-        </div>
-      </section>
+      
     </footer>
   );
 };
