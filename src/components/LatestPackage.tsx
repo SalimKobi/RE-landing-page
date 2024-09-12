@@ -55,7 +55,7 @@ const LatestPackage = () => {
           <div>
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_two.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -81,7 +81,7 @@ const LatestPackage = () => {
           <div>
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_three.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -107,7 +107,7 @@ const LatestPackage = () => {
           <div>
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_one.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -133,7 +133,7 @@ const LatestPackage = () => {
           <div>
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_four.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
