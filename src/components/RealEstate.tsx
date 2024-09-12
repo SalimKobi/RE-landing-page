@@ -48,10 +48,10 @@ const RealEstate = () => {
       <div className="bg-gradient-to-t from-[#fe6f5e] to-[#ffff] rounded-[560px] rounded-t-none">
         <div className="container mx-auto px-3 lg:flex justify-between items-center lg:h-screen">
           <div className="lg:w-2/5">
-            <p className="text-[#660000] md:text-2xl text-lg font-medium">
+            <p className="text-[#660000] md:text-3xl text-lg font-medium">
               Welcome to Tantolu Real Estate
             </p>
-            <h1 className="lg:text-4xl text-3xl font-medium pt-3 pb-8">
+            <h1 className="lg:text-5xl text-3xl font-medium pt-3 pb-8">
               Your Trusted Partner in Property Development, Sales, and
               Management
             </h1>

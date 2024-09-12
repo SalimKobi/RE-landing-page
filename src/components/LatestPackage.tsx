@@ -65,9 +65,9 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 5.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
-              <p className="text-sm">Bengkulu</p>
+              <p className="text-2xl font-medium">₦ 400,000,000</p>
+              <p className="text-lg font-medium">For sale</p>
+              <p className="text-sm">Kado</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-2">
                   <PiBed className="text-xl" /> 4 Beds
@@ -91,9 +91,9 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 1.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
-              <p className="text-sm">Bengkulu</p>
+              <p className="text-2xl font-medium">₦ 5,000,000</p>
+              <p className="text-lg font-medium">For rent</p>
+              <p className="text-sm">Jabi</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-2">
                   <PiBed className="text-xl" /> 3 Beds
@@ -117,9 +117,9 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 0.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
-              <p className="text-sm">Bengkulu</p>
+              <p className="text-2xl font-medium">₦ 550,000,000</p>
+              <p className="text-lg font-medium">For sale</p>
+              <p className="text-sm">Katampe</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-2">
                   <PiBed className="text-xl" /> 4 Beds
@@ -143,9 +143,9 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 3.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
-              <p className="text-sm">Bengkulu</p>
+              <p className="text-2xl font-medium">₦ 150,000,000</p>
+              <p className="text-lg font-medium">For rent</p>
+              <p className="text-sm">Life Camp</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-2">
                   <PiBed className="text-xl" /> 4 Beds
@@ -162,7 +162,7 @@ const LatestPackage = () => {
           <div className="pt-8">
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_four.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -172,8 +172,8 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 5.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-2xl font-medium">₦ 6,000,0000</p>
+              <p className="text-lg font-medium">For rent</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-4 text-sm">
@@ -188,7 +188,7 @@ const LatestPackage = () => {
           <div className="pt-8">
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_two.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -198,8 +198,8 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 5.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-2xl font-medium">₦ 400,000,000</p>
+              <p className="text-lg font-medium">For sale</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-4 text-sm">
@@ -214,7 +214,7 @@ const LatestPackage = () => {
           <div className="pt-8">
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_three.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -224,8 +224,8 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 5.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-2xl font-medium">₦ 5,000,000</p>
+              <p className="text-lg font-medium">For rent</p>
               <p className="text-sm">Bengkulu</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-4 text-sm">
@@ -240,7 +240,7 @@ const LatestPackage = () => {
           <div className="pt-8">
             <div className="relative h-80 sm:w-80">
               <img
-                src="/assets/img-blank.PNG"
+                src="/assets/listings/sale_one.webp"
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
@@ -250,9 +250,9 @@ const LatestPackage = () => {
               </button>
             </div>
             <span className="flex flex-col gap-y-1 py-4">
-              <p className="text-2xl font-medium">₦ 5.99</p>
-              <p className="text-lg font-medium">Lorem ipsum dolor</p>
-              <p className="text-sm">Bengkulu</p>
+              <p className="text-2xl font-medium">₦ 550,000,000</p>
+              <p className="text-lg font-medium">For sale</p>
+              <p className="text-sm">Katampe</p>
               <div className="flex items-center gap-x-4 text-sm">
                 <span className="flex items-center gap-x-4 text-sm">
                   <PiBed className="text-2xl font-medium" /> 4 Beds
