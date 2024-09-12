@@ -31,23 +31,12 @@ const LatestPackage = () => {
     <main className="container mx-auto px-3">
       <div className="lg:flex justify-between items-center">
         <div className="lg:w-3/5">
-          <h1 className="text-[#6f9789] lg:text-xl uppercase">
+          <h1 className="text-[#660000] lg:text-xl uppercase">
             Check out Our New
           </h1>
           <h1 className="lg:text-4xl text-2xl font-medium capitaliz py-3e">
             Latest Listed Properties
           </h1>
-        </div>
-        <div className="flex gap-x-4 lg:w-2/5 lg:pt-0 pt-6">
-          <button className="text-[#0ca39a] rounded-full border border-[#0ca39a] hover:text-white focus:bg-[0ca39a] focus:text-white px-2">
-            All
-          </button>
-          <button className="text-[#0ca39a] rounded-full border border-[#0ca39a] hover:text-white focus:bg-[0ca39a] focus:text-white px-2">
-            Sell
-          </button>
-          <button className="text-[#0ca39a] rounded-full border border-[#0ca39a] hover:text-white focus:bg-[0ca39a] focus:text-white px-2">
-            Rent
-          </button>
         </div>
       </div>
       <section className="mt-8">

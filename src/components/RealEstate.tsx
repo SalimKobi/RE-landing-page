@@ -45,17 +45,17 @@ const RealEstate = () => {
 
   return (
     <main className="mb-12">
-      <div className="bg-gradient-to-t from-[#bce6e4] to-[#f8fdfe] rounded-[560px] rounded-t-none">
+      <div className="bg-gradient-to-t from-[#fe6f5e] to-[#ffff] rounded-[560px] rounded-t-none">
         <div className="container mx-auto px-3 lg:flex justify-between items-center lg:h-screen">
           <div className="lg:w-2/5">
-            <p className="text-[#0c4f37] md:text-xl text-lg font-medium">
+            <p className="text-[#660000] md:text-2xl text-lg font-medium">
               Welcome to Tantolu Real Estate
             </p>
-            <h1 className="lg:text-3xl text-3xl font-medium pt-3 pb-8">
+            <h1 className="lg:text-4xl text-3xl font-medium pt-3 pb-8">
               Your Trusted Partner in Property Development, Sales, and
               Management
             </h1>
-            <p className="text-[#808080] lg:text-base text-sm pb-8">
+            <p className="text-[#000] lg:text-lg text-sm pb-8">
               At Tantolu Real Estate, we don’t just develop properties—we manage
               them with care and connect people to their perfect homes. Whether
               you’re looking to buy, sell, or manage your property, our expert
@@ -63,7 +63,7 @@ const RealEstate = () => {
               tailored to your needs.
             </p>
 
-            <Carousel
+            {/* <Carousel
               className="z-20"
               swipeable={true}
               draggable={false}
@@ -84,7 +84,29 @@ const RealEstate = () => {
                   <img src={img} alt={img} className="rounded-2xl" />
                 </div>
               ))}
-            </Carousel>
+            </Carousel> */}
+            <div className="justify-center lg:flex lg:mt-4 gap-x-8 lg:px-0 px-3">
+              <div className="bg-white rounded-full py-4 lg:px-8 flex items-center justify-center gap-x-4 shadow-2xl w-2xl">
+                <img
+                  src="/assets/img-blank.PNG"
+                  alt=""
+                  className="w-12 h-12 rounded-full"
+                />
+                <p className="w-36 md:text-sm font-medium">
+                  12k+ Happy Customers
+                </p>
+              </div>
+              <div className="bg-white rounded-full py-4 lg:px-8 px-3 flex items-center justify-center gap-x-4 shadow-2xl lg:mt-0 mt-4">
+                <img
+                  src="/assets/img-blank.PNG"
+                  alt=""
+                  className="w-12 h-12 rounded-full"
+                />
+                <p className="md:text-sm font-medium">
+                  200+ available properties
+                </p>
+              </div>
+            </div>
           </div>
           <form className="bg-white shadow-2xl rounded-3xl py-8 lg:w-1/3 relative lg:mt-0 mt-12">
             <div className="flex justify-between border-b border-[#aaaaaa] h-12 lg:px-8 px-3">
@@ -113,22 +135,19 @@ const RealEstate = () => {
               <select className="h-16 outline-none rounded-3xl bg-[#f6f6f6] border border-[#e5e5e5] px-6">
                 <option value="">Select Rooms</option>
               </select>
-              <span className="flex items-center text-[#0ca39a] gap-x-2">
-                <VscSettings className="text-2xl" />
-                <p>Advance Search</p>
-              </span>
+
               <button
                 type="button"
-                className="w-full flex justify-center items-center gap-x-2 rounded-full h-14 text-white bg-[#0ca39a]"
+                className="w-full flex justify-center items-center gap-x-2 rounded-full h-14 text-white bg-[#660000]"
               >
-                <IoSearch /> Search
+                <IoSearch /> Request property
               </button>
             </div>
-            <button className="bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9] rounded-full h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
+            <button className="bg-gradient-to-r from-[#660000] to-[#fe6f5e] rounded-full h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
           </form>
         </div>
       </div>
-      <div className="lg:hidden block container mx-auto px-3 py-8">
+      {/* <div className="lg:hidden block container mx-auto px-3 py-8">
         <span className="lg:dlex items-end gap-x-60 lg:text-left text-center">
           <button className="lg:block hidden bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9]  rounded-full h-12 w-12 cursor-auto"></button>
           <p className="text-[# a5a5a5]">Trusted by 100+ companies</p>
@@ -143,37 +162,9 @@ const RealEstate = () => {
             <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
           </Marquee>
         </div>
-      </div>
-      <div className="lg:flex justify-center lg:mt-16 gap-x-8 lg:px-0 px-3">
-        <div className="bg-white rounded-full py-4 lg:px-8 flex items-center justify-center gap-x-4 shadow-2xl">
-          <span className="flex items-center relative h-10 w-44">
-            {images.map((img, index) => (
-              <div key={index} className="lg:mr-7 mr-5 h-full">
-                <img
-                  src={img}
-                  alt={img}
-                  className="w-10 h-10 rounded-full object-cover absolute bg-[#f2f2f2] border border-white"
-                />
-              </div>
-            ))}
-            <button className="bg-black w-8 h-8 rounded-full text-white relative flex items-center justify-center">
-              <FaPlus />
-            </button>
-          </span>
-          <p className="w-36 md:text-xl font-medium">72k+ Happy Customers</p>
-        </div>
-        <div className="bg-white rounded-full py-4 lg:px-8 px-3 flex items-center justify-center gap-x-4 shadow-2xl lg:mt-0 mt-4">
-          <img
-            src="/assets/img-blank.PNG"
-            alt=""
-            className="w-12 h-12 rounded-full"
-          />
-          <p className="md:text-xl font-medium">
-            200+ New <br /> Listings Everyday!
-          </p>
-        </div>
-      </div>
-      <div className="lg:block hidden container mx-auto px-3 py-16">
+      </div> */}
+
+      {/* <div className="lg:block hidden container mx-auto px-3 py-16">
         <span className="lg:flex items-end gap-x-60 lg:text-left text-center">
           <button className="lg:block hidden bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9]  rounded-full h-12 w-12 cursor-auto"></button>
           <p className="text-[# a5a5a5]">Trusted by 100+ companies</p>
@@ -188,7 +179,7 @@ const RealEstate = () => {
             <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
           </Marquee>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 };

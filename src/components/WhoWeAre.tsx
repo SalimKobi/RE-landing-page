@@ -4,7 +4,7 @@ const WhoWeAre = () => {
   return (
     <main className="container mx-auto lg:flex px-3 mb-12 lg:pt-0 pt-8">
       <div className="lg:w-2/5">
-        <p className="text-[#0c4f37] md:text-xl text-lg font-medium">
+        <p className="text-[#660000] md:text-xl text-lg font-medium">
           Why Choose Tantolu Real Estate?
         </p>
         <h1 className="lg:text-4xl text-2xl font-medium py-3">
@@ -63,7 +63,7 @@ const WhoWeAre = () => {
             alt=""
             className="w-full h-2/5 rounded-3xl shadow-md object-cover"
           />
-          <button className="bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9] rounded-full h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
+          <button className="bg-gradient-to-r from-[#660000] to-[#fe6f5e] rounded-full h-12 w-12 cursor-auto absolute -top-2 -right-2"></button>
         </div>
       </div>
       <div className="lg:hidden block pt-4 py-16">

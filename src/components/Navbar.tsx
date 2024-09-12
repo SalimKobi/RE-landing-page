@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50">
       <div className="bg-white">
         <div className="container mx-auto flex flex-wrap items-center justify-between px-3">
-          <div>
+          {/* <div>
             <ul className="lg:flex hidden items-center gap-x-4 list-none lg:ml-auto lg:gap-y-0 gap-y-8">
               <li className="py-2 flex font-medium items-center leading-snug">
                 <button className="bg-[#0ca39a] rounded-full px-4 py-1 hover:bg-slate-950">
@@ -31,26 +31,26 @@ const Navbar = () => {
                 <a href="#">Blogs</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div className="w-full lg:w-auto flex justify-between items-center">
-            <span className="flex items-center gap-x-2">
-              <button className="bg-[#0ca39a] text-white rounded-full w-14 h-14">
+            <span className="flex items-center gap-x-2 pt-5">
+              <button className="bg-[#660000] text-white rounded-full w-14 h-14">
                 <TbHomeCheck className="w-1/2 h-1/2 m-auto" />
               </button>
-              <p className="font-medium text-xl">Anjas</p>
+              <p className="font-medium text-xl">Tantolu</p>
             </span>
-            <div className="flex items-center lg:hidden">
+            {/* <div className="flex items-center lg:hidden">
               <button
                 className="cursor-pointer text-xl leading-none px-3 py-1 h-[3rem]"
                 onClick={() => setNavBarOpen(!navBarOpen)}
               >
                 {navBarOpen ? <AiOutlineClose /> : <FaBars />}
               </button>
-            </div>
+            </div> */}
           </div>
 
-          <div
+          {/* <div
             className={`lg:flex lg:items-center items-baseline lg:h-auto lg:mx-0 mx-auto h-screen ${
               navBarOpen ? "flex" : "hidden"
             }`}
@@ -90,7 +90,7 @@ const Navbar = () => {
                 </button>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

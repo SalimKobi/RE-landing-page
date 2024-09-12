@@ -40,7 +40,7 @@ const Testimonial = () => {
   return (
     <main className="container mx-auto px-3 lg:flex justify-between pt-20 pb-20">
       <div className="lg:w-1/3 flex flex-col">
-        <p className="text-[#0c4f37] uppercase md:text-xl text-lg">
+        <p className="text-[#660000] uppercase md:text-xl text-lg">
           Testimonials
         </p>
         <h1 className="lg:text-4xl text-3xl font-medium capitalize py-3">
@@ -49,13 +49,13 @@ const Testimonial = () => {
         <div className="lg:flex hidden gap-x-12 mt-16">
           <button
             onClick={handlePrevClick}
-            className="w-12 h-12 rounded-full border border-[#0ca39a] flex justify-center items-center text-[#0ca39a] hover:bg-[#0ca39a] hover:text-white"
+            className="w-12 h-12 rounded-full border border-[#660000] flex justify-center items-center text-[#660000] hover:bg-[#660000] hover:text-white"
           >
             <IoArrowBack />
           </button>
           <button
             onClick={handleNextClick}
-            className="w-12 h-12 rounded-full border border-[#0ca39a] flex justify-center items-center text-[#0ca39a] hover:bg-[#0ca39a] hover:text-white"
+            className="w-12 h-12 rounded-full border border-[#660000] flex justify-center items-center text-[#660000] hover:bg-[#660000] hover:text-white"
           >
             <IoArrowForward />
           </button>
@@ -76,7 +76,6 @@ const Testimonial = () => {
             </div>
           </span>
         </div>
-        <button className="lg:block hidden bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9]  rounded-full h-16 w-16 cursor-auto -top-6 -left-6"></button>
       </div>
     </main>
   );

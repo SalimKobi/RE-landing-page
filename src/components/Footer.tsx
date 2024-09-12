@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="lg:flex justify-between px-3 w-full py-12 lg:text-left">
             <div className="lg:block flex flex-col items-center justify-center">
               <span className="flex items-center gap-x-2">
-                <button className="bg-[#0ca39a] text-white rounded-full w-14 h-14">
+                <button className="bg-[#660000] text-white rounded-full w-14 h-14">
                   <TbHomeCheck className="w-1/2 h-1/2 m-auto" />
                 </button>
-                <p className="font-medium text-xl">Anjas</p>
+                <p className="font-medium text-xl">Tantolu</p>
               </span>
               <p className="xl:text-base text-sm py-4 w-4/5 lg:text-left text-center">
                 Bengkulu, Indonesia
