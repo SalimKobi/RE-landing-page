@@ -112,13 +112,13 @@ const RealEstate = () => {
             <div className="flex justify-between border-b border-[#aaaaaa] h-12 lg:px-8 px-3">
               <button
                 type="button"
-                className="w-1/2 text-[#808080] focus:border-b-2 focus:text-[#0ca39a] focus:border-[#0ca39a] cursor-pointer"
+                className="w-1/2 text-[#808080] focus:border-b-2 focus:text-[#660000] focus:border-[#fcecea] cursor-pointer"
               >
                 For Sale
               </button>
               <button
                 type="button"
-                className="w-1/2 text-[#808080] focus:border-b-2 focus:text-[#0ca39a] focus:border-[#0ca39a] cursor-pointer"
+                className="w-1/2 text-[#808080] focus:border-b-2 focus:text-[#660000] focus:border-[#fcecea] cursor-pointer"
               >
                 For Rental
               </button>
