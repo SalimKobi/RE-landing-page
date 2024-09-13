@@ -5,7 +5,7 @@ const WhoWeAre = () => {
     <main className="container mx-auto lg:flex px-3 mb-12 lg:pt-0 pt-8">
       <div className="lg:w-2/5">
         <p className="text-[#660000] md:text-xl text-lg font-medium">
-          Why Choose Tantolu Real Estate?
+          WHY CHOOSE TANTOLU REAL ESTATE ?
         </p>
         <h1 className="lg:text-4xl text-2xl font-medium py-3">
           Assisting individual in locating the appropriate real estate

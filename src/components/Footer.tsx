@@ -86,15 +86,14 @@ const Footer = () => {
               </p>
 
               <span className="text-[#0ca49a] flex items-center gap-4 text-2xl lg:justify-normal">
-                <FaLinkedin className="cursor-pointer" />
-                <FaFacebookF className="cursor-pointer" />
-                <FaInstagram className="cursor-pointer" />
+                <FaLinkedin className="cursor-pointer text-[#660000]" />
+                <FaFacebookF className="cursor-pointer text-[#660000]" />
+                <FaInstagram className="cursor-pointer text-[#660000]" />
               </span>
             </div>
           </div>
         </div>
       </section>
-      
     </footer>
   );
 };
