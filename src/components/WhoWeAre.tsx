@@ -70,22 +70,27 @@ const WhoWeAre = () => {
         <div className="bg-white shadow-2xl px-4 py-6 rounded-3xl flex items-center gap-x-3 lg:w-4/5 mt-6">
           <FaHome className="text-4xl text-[#04c37] w-1/3" />
           <span>
-            <h1 className="text-[#0c3f37] text-lg font-medium">Lorem</h1>
+            <h1 className="text-[#0c3f37] text-lg font-medium">
+              Comprehensive Real Estate Services
+            </h1>
             <p className="text-[#a5a5a5] w-4/5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Aspernatur velit perspiciatis impedit dolore fugiat tempora
-              officia sapiente dignissimos
+              Our services cover everything from property buying and selling to
+              ongoing facility management, ensuring your property remains in top
+              shape while maintaining its value.
             </p>
           </span>
         </div>
         <div className="bg-white shadow-2xl px-4 py-6 rounded-3xl flex items-center gap-x-3 lg:w-4/5 mt-6">
           <FaHome className="text-4xl text-[#04c37] w-1/3" />
           <span>
-            <h1 className="text-[#0c3f37] text-lg font-medium">Lorem</h1>
+            <h1 className="text-[#0c3f37] text-lg font-medium">
+              Expert Property Management
+            </h1>
             <p className="text-[#a5a5a5] w-4/5">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Aspernatur velit perspiciatis impedit dolore fugiat tempora
-              officia sapiente dignissimos
+              Our facility management services take the hassle out of property
+              ownership. We handle everything from maintenance and repairs to
+              tenant management and security, ensuring peace of mind for
+              property owners and residents.
             </p>
           </span>
         </div>
