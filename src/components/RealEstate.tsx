@@ -26,14 +26,14 @@ const responsive = {
 };
 
 const RealEstate = () => {
-  const CustomDot = ({ onClick, active }) => (
-    <li
-      className={`text-5xl ${active ? "text-[#0c4f37]" : "text-white"}`}
-      onClick={() => onClick()}
-    >
-      <MdMaximize />
-    </li>
-  );
+  // const CustomDot = ({ onClick, active }) => (
+  //   <li
+  //     className={`text-5xl ${active ? "text-[#0c4f37]" : "text-white"}`}
+  //     onClick={() => onClick()}
+  //   >
+  //     <MdMaximize />
+  //   </li>
+  // );
 
   const images = [
     "/assets/img-blank.PNG",
