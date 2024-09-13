@@ -45,7 +45,7 @@ const RealEstate = () => {
 
   return (
     <main className="mb-12">
-      <div className="bg-gradient-to-t from-[#fe6f5e] to-[#ffff] rounded-[560px] rounded-t-none">
+      <div className="bg-gradient-to-t from-[#fcecea] to-[#ffff] rounded-[560px] rounded-t-none">
         <div className="container mx-auto px-3 lg:flex justify-between items-center lg:h-screen">
           <div className="lg:w-2/5">
             <p className="text-[#660000] md:text-3xl text-lg font-medium">

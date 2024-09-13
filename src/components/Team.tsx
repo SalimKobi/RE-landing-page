@@ -11,7 +11,7 @@ const Team = () => {
             alt=""
             className="md:h-80 h-60 w-full rounded-b-3xl rounded-tl-[50%] object-cover bg-[#cbcbc9]"
           />
-          <p className="text-center pt-4 md:text-2xl font-semibold">Anjas</p>
+          <p className="text-center pt-4 md:text-2xl font-semibold">Name: Here</p>
           <p className="text-center pt-4 md:text-base text-sm text-[#0c4f37] font-semibold">
             CEO
           </p>
